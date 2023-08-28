@@ -10,7 +10,7 @@ export default function ExpenseItem(props) {
        
         </div>
       <div className='expense-item__description'>
-        <h4>{props.title}</h4>
+        <h4>{props.title }</h4>
         <div className='expense-item__price'>Rs. {props.amount}</div>
       </div>
     </div>
